@@ -10,8 +10,8 @@ public class ExampleWorld2 {
 
         a = "Hello";
         b = "world";
-        c = " 5 ";
-        d = "раз";
+        c = " 2 ";
+        d = "раза";
         System.out.println(a + b);
         System.out.println(c + d );
 
