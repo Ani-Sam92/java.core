@@ -20,4 +20,17 @@ public class TriaTest {
         System.out.println(" дней свет пройдет около");
         System.out.println(distance + " миль");
     }
+
+    public static class ForExample {
+
+        public static void main(String[] args) {
+            for (int i = 0; i < 5; i++) {
+                for (int j = 0; j <= i; j++) {
+                    System.out.print("* ");
+                }
+                System.out.println();
+            }
+
+        }
+    }
 }
