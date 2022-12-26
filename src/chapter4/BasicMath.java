@@ -22,5 +22,9 @@ public class BasicMath {
         double dd = dc - a;
         double de = - dd;
         System.out.println("da = " + da);
+        System.out.println("db = " + db);
+        System.out.println("dc = " + dc);
+        System.out.println("dd = " + dd);
+        System.out.println("de = " + de);
     }
 }
