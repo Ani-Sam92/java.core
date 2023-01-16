@@ -1,23 +1,24 @@
 package homework1.homework7;
 
 public class Calculator {
-    void plusOfCalculator(double a, double b ){
-        double pluse  = a + b;
-        System.out.println(pluse );
+
+    double pluse(double a, double b){
+        return a + b;
     }
-    void minusOfCalculator(double a, double b ){
-        double minus = a - b;
-        System.out.println( minus );
+    double minus(double a, double b) {
+        return a - b;
     }
-    void multiOfCalculartor(double a, double b){
-        double multi = a * b;
-        System.out.println( multi);
+
+    double multi(double a, double b) {
+        return a * b;
     }
-    void divideOfCalculator(double a, double b){
-        double divide = a / b;
-        System.out.println(divide);
+    double divide(double a, double b){
+        if(b == 0);
+        return a / b;
+
     }
 }
+
 
 
 

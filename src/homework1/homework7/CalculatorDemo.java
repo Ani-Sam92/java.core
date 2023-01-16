@@ -4,10 +4,13 @@ public class CalculatorDemo {
 
     public static void main(String[] args) {
         Calculator ca = new Calculator();
-        ca.plusOfCalculator(567,778);
-        ca.minusOfCalculator(85,78);
-        ca.multiOfCalculartor(36,75);
-        ca.divideOfCalculator(15, 8);
-
+        double c = ca.pluse(45.2, 66.4);
+        System.out.println(c);
+        double j = ca.minus(78.5, 12.8);
+        System.out.println(j);
+        double v = ca.multi(12.8, 7.1);
+        System.out.println(v);
+        double p = ca.divide(32.1, 10.2);
+        System.out.println(p);
     }
 }
